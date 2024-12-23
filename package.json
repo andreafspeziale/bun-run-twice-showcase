@@ -1,0 +1,14 @@
+{
+  "name": "joshbetz-node-memcached",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@joshbetz/memcached": "^1.4.0"
+  }
+}

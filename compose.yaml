@@ -1,0 +1,6 @@
+services:
+  cache-0:
+    container_name: joshbetz-memcached-0
+    image: bitnami/memcached:1.6.29
+    ports:
+      - 11211:11211
